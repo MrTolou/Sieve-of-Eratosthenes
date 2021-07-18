@@ -1,0 +1,91 @@
+@font-face {
+	font-family: Urbanist;
+	src: url('../Fonts/Urbanist-Bold.eot');
+	src: url('../Fonts/Urbanist-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../Fonts/Urbanist-Bold.woff') format('woff'),
+		url('../Fonts/Urbanist-Bold.ttf') format('truetype');
+	font-weight: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Urbanist, tahoma;
+	border: none;
+	outline: none;
+	color: #34495e;
+}
+body {
+	background: #f9fbfd;
+}
+
+input {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	box-shadow: 0 2px 5px #cacaca;
+	padding: 4px 8px;
+	border-radius: 5px;
+}
+input[type="button"] {
+	margin-bottom: 0;
+	background: #884DFF;
+	box-shadow: 0 2px 5px #884DFF6b;
+	color: #fff;
+}
+.container {
+	margin: 30px auto;
+	max-width: 400px;
+	background: #fff;
+	box-shadow: 0 2px 5px rgb(18 38 63 / 10%);
+	padding: 10px 0;
+	border-radius: 8px;
+}
+.container .title {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 15px;
+	text-shadow: 0 1px 7px #34495e;
+}
+.form {
+	max-width: 320px;
+	margin: 0 auto 30px;
+}
+
+#export {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.primeNumber {
+	word-break: break-all;
+	color: #fff;
+	float: left;
+	width: 40px;
+	min-height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: #4D4DFF;
+	margin: 0 3.5px 7px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #4D4DFF6b;
+}
+.success {
+	color: #00C853;
+	background: rgb(0 200 83 / 10%);
+	padding: 10px !important;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+@media only screen and (max-width: 440px){
+	.container {
+		margin: 30px 10px;
+		padding: 10px;
+	}
+	.success {margin: 0 0;}
+}
